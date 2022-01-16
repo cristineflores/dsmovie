@@ -9,9 +9,7 @@ type Props = {
     movieId : string;
 }
 
-function FormCard( { movieId } : Props ) {
-
-    const navigate = useNavigate();
+function FormCard( { movieId } : Props ) {    
 
     const [movie, setMovie] = useState<Movie>();   
     
